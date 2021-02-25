@@ -35,16 +35,16 @@
         </div>
       </p>
       <div class="container">
-      <img src="images/kiwi.jpg" class="img-responsive" alt="kiwi" width="300" height="300">
-      <img src="images/orange.jpg" class="img-responsive" alt="orange" width="300" height="300">
-      <img src="images/mango.jpg" class="img-responsive" alt="mango" width="300" height="300">
+      <img src="images/kiwi.jpg" class="img-responsive" alt="kiwi" width="350" height="350">
+      <img src="images/orange.jpg" class="img-responsive" alt="orange" width="350" height="350">
+      <img src="images/mango.jpg" class="img-responsive" alt="mango" width="350" height="350">
     </div>
     <div class="container">
-      <img src="images/kiwi.jpg" class="img-thumbnail" alt="kiwi" width="300" height="300">
+      <img src="images/kiwi.jpg" class="img-thumbnail" alt="kiwi" width="400" height="400">
       <img src="images/orange.jpg" class="img-thumbnail" alt="orange" width="300" height="300">
-      <img src="images/mango.jpg" class="img-thumbnail" alt="mango" width="300" height="300">
+      <img src="images/mango.jpg" class="img-thumbnail" alt="mango" width="350" height="350">
     </div>
-    <table class="table table-striped table-dark">
+    <table class="table table-hover table-sm ">
       <thead>
         <tr>
           <th scope="col">Letter</th>
@@ -54,37 +54,37 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class="table-primary">
           <th scope="row">K</th>
-          <td>kiwi</td>
-          <td>kolkata</td>
-          <td>kebab</td>
+          <td>Kiwi</td>
+          <td>Kolkata</td>
+          <td>Kebab</td>
         </tr>
-        <tr>
+        <tr class="table-secondary">
           <th scope="row">O</th>
           <td>ORANGE</td>
-          <td>ongole</td>
-          <td>oreo</td>
+          <td>Ongole</td>
+          <td>Oreo</td>
         </tr>
-        <tr>
+        <tr class="table-sucess">
           <th scope="row">N</th>
           <td>NEEM</td>
           <td>Nellore</td>
           <td>Nutella</td>
         </tr>
-        <tr>
+        <tr class="table-danger">
           <th scope="row">D</th>
           <td>DATEPALM</td>
           <td>Delhi</td>
-          <td>Nutella</td>
+          <td>Dosa</td>
         </tr>
-        <tr>
+        <tr class="table-warning">
           <th scope="row">A</th>
           <td>ALOVERA</td>
           <td>Assam</td>
           <td>AlooMasala</td>
         </tr>
-        <tr>
+        <tr class="table-info">
           <th scope="row">M</th>
           <td>MANGO</td>
           <td>Mumbai</td>
@@ -92,5 +92,31 @@
         </tr>
       </tbody>
     </table>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group mr-2" role="group" aria-label="Success">
+          <button type ="button" class = "btn btn-success">K</button>
+          <button type = "button" class = "btn btn-success">O</button>
+          <button type = "button" class = "btn btn-success">M</button>
+      </div>
+      <div class="btn-group mr-2" role="group" aria-label="Alert">
+        <button type = "button" class = "btn btn-warning">N</button>
+        <button type = "button" class = "btn btn-warning">D</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Alert">
+      <button type = "button" class = "btn btn-danger">A</button>
+  </div>
+  </div>
+  <br>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Other Pages
+    </button>
+   
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="cat.html">Cat Page</a>
+      <a class="dropdown-item" href="Dog.html">Dog Page</a>
+    </div>
+</div>
 </body>
 </html>
